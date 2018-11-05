@@ -1,6 +1,6 @@
 class Pcscd < Formula
   desc "Middleware to access a smart card using SCard API"
-  homepage "https://pcsclite.alioth.debian.org"
+  homepage "https://pcsclite.apdu.fr"
   url "https://github.com/glennakamura/PCSC.git", :using => :git, :revision => "1c0580549399210c7096f68e23a6223176826702"
   version "winscard-homebrew"
 
