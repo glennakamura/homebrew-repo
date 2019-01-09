@@ -5,9 +5,10 @@ class Coolkey < Formula
       :tag      => "homebrew-1.1.0-40",
       :revision => "91aeb50c2532e542783e3e390c0935dbf858c185"
 
-  depends_on "autoconf" => :build
-  depends_on "automake" => :build
-  depends_on "libtool"  => :build
+  depends_on "autoconf"   => :build
+  depends_on "automake"   => :build
+  depends_on "libtool"    => :build
+  depends_on "pkg-config" => :build
 
   def install
     system "autoreconf", "--verbose", "--install"
