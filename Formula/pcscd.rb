@@ -4,9 +4,10 @@ class Pcscd < Formula
   url "https://github.com/glennakamura/PCSC.git", :using => :git, :revision => "1c0580549399210c7096f68e23a6223176826702"
   version "winscard-homebrew"
 
-  depends_on "autoconf" => :build
-  depends_on "automake" => :build
-  depends_on "libtool"  => :build
+  depends_on "autoconf"   => :build
+  depends_on "automake"   => :build
+  depends_on "libtool"    => :build
+  depends_on "pkg-config" => :build
 
   def install
     system "./bootstrap"
