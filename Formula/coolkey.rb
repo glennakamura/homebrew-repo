@@ -2,8 +2,8 @@ class Coolkey < Formula
   desc "PKCS#11 Module for CoolKey and CAC products"
   homepage "https://www.dogtagpki.org/wiki/CoolKey"
   url "https://github.com/glennakamura/coolkey.git",
-      :tag      => "homebrew-1.1.0-40",
-      :revision => "91aeb50c2532e542783e3e390c0935dbf858c185"
+      :tag      => "homebrew-1.1.0-40a",
+      :revision => "7b97433df3a20014f65617eecc6815e5f819d2a3"
 
   depends_on "autoconf"   => :build
   depends_on "automake"   => :build
