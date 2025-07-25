@@ -1,13 +1,13 @@
 class Tlscert < Formula
   desc "TLS Certificate Generator"
   homepage "https://github.com/glennakamura/tlscert"
-  url "https://raw.githubusercontent.com/glennakamura/tlscert/refs/heads/main/tlscert-1.0.1.sonoma.bottle.tar.gz"
-  sha256 "e18f2a288908f5dc4a99948a6b044ecc0ce6dbf26edc3a85be3d62cf4bce2984"
-  version "1.0.1"
+  url "https://raw.githubusercontent.com/glennakamura/tlscert/refs/heads/main/tlscert-1.1.0.sonoma.bottle.tar.gz"
+  sha256 "98dba0cbf5a4e269a5349c7b6db278717cd2e2dfe1d5fdb788fcd118a13a9583"
+  version "1.1.0"
 
   bottle do
     root_url "https://raw.githubusercontent.com/glennakamura/tlscert/refs/heads/main"
-    sha256 cellar: :any, sonoma: "e18f2a288908f5dc4a99948a6b044ecc0ce6dbf26edc3a85be3d62cf4bce2984"
+    sha256 cellar: :any, sonoma: "98dba0cbf5a4e269a5349c7b6db278717cd2e2dfe1d5fdb788fcd118a13a9583"
   end
 
   def install
